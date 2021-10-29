@@ -8,6 +8,8 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"> -->
+  
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -18,7 +20,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,9 +32,120 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <!--create table with rows from 7 am to 6pm-->
+
+    <!-- Table layout -->
+      <section class="row">
+        <div class="table-responsive"> <!--**NEED TO CREATE CLASS TO MAKE RESPONSIVE**>-->
+          <table class="table">
+            <thead> 
+              <tr> <!-- ALL REMAIN BLANK; ADD PADDING THE FIRST AND LAST-->
+                <th scope="col"></th> <!--EACH COLUMN SHOULD BE 4 COLS WORTH, scope=col-->
+                <th scope="col"></th>
+                <th scope="col"></th> 
+              </tr>
+            </thead>
+            <tbody id="time-block-display"> <!-- ASSIGNED ID IF WANT TO APPEND ALL -->
+              <tr>
+                <td class="hour col-1">5am</td>
+                <td class="present col-10"></td> <!--change dependent on time so technically should have a class to begin with should be done in javascript-->
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">6am</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">7am</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">8am</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">9am</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">10am</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">11am</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">12pm</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">1pm</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">2pm</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">3pm</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">4pm</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">5pm</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">6pm</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">7pm</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">8pm</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">9pm</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+              <tr>
+                <td class="hour col-1">10pm</td>
+                <td class="present col-10"></td> 
+                <td class="saveBtn col-1"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
 </html>
+
+
+
