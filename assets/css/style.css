@@ -10,10 +10,10 @@ textarea {
   resize: none;
   color: #000000;
   padding: 5px 5px;
-  /* box-shadow: inset; */
   width: 100%;
   height: 80px;
-  
+  top :0px;
+  padding-left: 0px;
 }
 
 
@@ -41,6 +41,7 @@ table th {
 }
 table td {
   border-bottom: 2px solid white; 
+  /* height: 80px; */
 }
 
 thead th {
@@ -50,8 +51,13 @@ thead th {
 
 table tbody + table tbody {
   border-bottom: 2px solid white;
-}
 
+}
+ 
+table tbody tr {
+  height: 80px;
+}
+ 
 
 
 .jumbotron {
@@ -116,8 +122,30 @@ table tbody + table tbody {
 
 .event {
  padding: 0px;
+
  /* border-top-color:lightgray ; */
 }
 
+.btn {
+  color:white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:80px;
+  
+}
+
+.glyphicon {
+ size: large;
+ /* height: 18px; */
+ font-size: xx-large;
+}
 
 
+.event-input {
+  padding-left:5px;
+  padding-top:5px;
+  padding-bottom:0.4em;
+  padding-right: 0.4em;
+}
