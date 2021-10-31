@@ -14,3 +14,6 @@ My application was built with the following functionality:
 5) When the save button is selected for that timeblock, the text for that event is saved in local storage. 
 6) When the page refreshed, then the saved event persists. 
 ```
+
+
+![walkthrough gif](./assets/images/walkthrough.gif)
