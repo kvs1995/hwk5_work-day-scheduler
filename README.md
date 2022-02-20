@@ -23,4 +23,5 @@ My application was built with the following functionality:
 
 ## Important Links
 GitHub Repository: https://github.com/kvs1995/well-planned-work-day-scheduler/
+
 Deployed Application: https://kvs1995.github.io/well-planned-work-day-scheduler/
