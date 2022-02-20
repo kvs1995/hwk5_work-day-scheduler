@@ -1,6 +1,6 @@
 # Well-Planned Work Day Scheduler
 
-##Description
+## Description
 Are you looking for a simplistic, straight to the point, daily planner? Well look no further! This work day scheduler provides the ability to keep track and provide you with a sneak peek of your day. Who needs thrills and frills when you're organizing the productive day you have ahead of you?
 
 Try out Well-Planned Work Day Scheduler for all your appointment and reminder needs. 
@@ -21,6 +21,6 @@ My application was built with the following functionality:
 
 ![walkthrough gif](./assets/images/walkthrough.gif)
 
-##Important Links
+## Important Links
 GitHub Repository: https://github.com/kvs1995/well-planned-work-day-scheduler/
 Deployed Application: https://kvs1995.github.io/well-planned-work-day-scheduler/
